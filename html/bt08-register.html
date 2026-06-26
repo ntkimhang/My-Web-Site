@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bài số 8</title>
+    </head>
+
+    <body>
+        <h3 align="center">BÀI KIỂM TRA CHƯƠNG 2</h3>
+        <p align="center">
+            <b>Môn học: </b> <i>Mạng máy tính</i><br>
+            <b>Mã số sinh viên: </b> <i>12355</i><br>
+            <b>Họ và tên: </b> <i>Nguyễn Văn A</i>
+        </p>
+
+        <hr color="#0000ff"> 
+        <p align="center">
+            <a href="bt08-index.html">Trang chủ</a>
+            <a href="bt08-content.html">Nội dung môn học</a>
+            <a href="bt08-register.html">Đăng ký</a>
+        </p>
+
+        <form>
+
+        <table border="1" align="center" cellspacing="0" cellpadding="5" width="50%">
+            <caption><h4>ĐĂNG KÝ THAM GIA DIỄN ĐÀN</h4></caption>
+            <tbody bgcolor="#1bf0ff">
+                <tr>
+                    <td>Tên đăng nhập: </td>
+                    <td>
+                            <input type="text" name="TenDN" placeholder="Nhập tên đăng nhập" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Mật khẩu: </td>
+                    <td>
+                        <input type="password" name="MatKhau" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Giới tính: </td>
+                    <td>
+                        <input type="radio" name="sex" value="male" checked>Nam
+                        <input type="radio" name="sex" value="female" >Nữ
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Ngày sinh: </td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email: </td>
+                    <td>
+                        <input type="email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Ngôn ngữ lập trình yêu thích nhất: </td>
+                    <td>
+                        <select required>
+                            <option value="" selected></option>
+                            <option>C++</option>
+                            <option>C#</option>
+                            <option>PHP</option>
+                            <option>Java</option>
+                            <option>Python</option>
+        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Quy định khi tham gia diễn đàn: </td>
+                    <td>
+                            <textarea rows="5" cols="30">Bài viết phải nghiêm túc, không chứa quảng cáo. không có nội dung phản cảm</textarea>
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">
+                            <img src="../images/dangky.png"
+                            width="100" height="25"/>
+                        </button>
+                        <button type="reset">
+                            <img src="../images/huy.png"
+                            width="100" height="25"/>
+                        </button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        </form>
+    </body>
+</html>
